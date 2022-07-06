@@ -24,6 +24,15 @@ return [
         'class' => \InfoCounterparty\Compra\Method\DefaultMethod::class,
         'async' => false
     ],
+    'taxes' => [
+        'name' => 'Налоговые отчисления',
+        'title' => '"Налоговая задолженность" позволяет получить информацию о наловой задолженности объекта поиска',
+        'baseurl' => 'https://kompra.kz/api/v2/taxes',
+        'httpMethod' => 'GET',
+        'class' => \InfoCounterparty\Compra\Method\DefaultMethod::class,
+        'async' => false
+    ],
+
     'statuses' => [
         'name' => 'Статус организации',
         'title' => 'Сведения о статусе организации',

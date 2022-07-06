@@ -14,6 +14,14 @@ abstract class SourceInfoCounterpartyAbstract
     }
 
     /**
+     * перевести параметр
+     */
+    protected function Translate($Param, $Path)
+    {
+        return $Param;
+    }
+
+    /**
      * @param $identifier string БИН юридического лица, по которому запрашивается информация
      * @param $method string название метода, по которому осуществляется запрос
      * @param $inCash bool Разрешить запрос из кеша, в противном случае перезаростить из внешней системы

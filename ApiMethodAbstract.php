@@ -86,6 +86,7 @@ abstract class ApiMethodAbstract
         return $response;
     }
 
+
     abstract function SetCache(&$identifier, &$method, $data): bool;
 
     abstract function GetCache(&$identifier, &$method);
